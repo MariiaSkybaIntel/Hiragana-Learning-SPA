@@ -1,0 +1,213 @@
+#hiragana
+{
+	width: 95%;
+	border-collapse:collapse;
+	margin-left:auto; 
+	margin-right:auto;
+}
+.tg td, .tg th
+{
+	font-family:Arial, sans-serif;
+	border-style:solid;
+	border-width:1px;	
+	border-color:black;
+	filter:drop-shadow(10px 10px 4px grey);
+}
+#r
+{
+	font-family:Arial, sans-serif;
+	border-style:solid;
+	border-width:1px;	
+	border-color:black;
+	filter:drop-shadow(10px 10px 4px grey);
+}
+#showResults
+{
+    font: Arial;
+    float: right;
+    background-color: white;
+    max-width: 330px;
+    max-height: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    filter:drop-shadow(10px 10px 4px grey);
+}
+#scoremessage
+{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+
+$color-primary: #ABA194;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-size: 300% 300%;
+    background: linear-gradient(45deg, white 3%, paleturquoise 100%);
+}
+.user 
+{
+    width: 30%;
+    max-width: 340px;
+}
+
+.user__header 
+{
+    text-align: center;
+}
+
+.user__title 
+{
+    margin-bottom: -10px;
+    font-weight: 500;
+    color: white;
+}
+.form__input 
+{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+.form_group
+{
+    border-radius: 10px;
+    text-align: center;
+ }
+#regscreen, #logscreen
+{
+	float: left;
+}
+#saveres
+{
+    width: 20%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background: lightgray;
+    margin-left: 420px;
+}
+#back
+{
+    width: 20%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background: lightgray;
+    margin-left: 10px;
+}
+#showUser
+{
+    font-size: 20px;
+    margin-left: 300px;
+    display: inherit;
+}
+#showScore
+{
+    margin-left: 550px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.btn 
+{
+    display: block;
+    width: 90%;
+    margin-right: 10px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background: lightgrey;
+}
+.btn:hover,.btnq:hover,#submitbutton:hover, #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover, #saveres:hover, #back:hover
+{
+	cursor: pointer;
+	background-color: darkgrey;
+}
+#name_reg:hover, #email_reg:hover, #pass_reg:hover, #name_log:hover, #pass_log:hover
+{
+    cursor: text;
+    filter: brightness(90%);
+}
+.btnq 
+{
+    display: inline-block;
+  	margin-top: 15px;
+  	margin-bottom: 15px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background: lightgrey;
+}
+#showQuiz1
+{
+    margin-left: 10px;
+}
+.grid
+{
+	width: 600px;
+	height: 400px;
+	margin-left: 380px;
+	background-color: #fff;
+	padding: 20px 40px 50px 50px;
+	border-radius: 50px;
+	border: 2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px #a5b0b7;
+}
+.grid h1
+{
+	font-family: sans-serif;
+	background-color: #57636e;
+	font-size: 60px;
+	text-align: center;
+    margin-top: 10px;
+	color: #fff;
+	border-radius: 50px;
+}
+.grid #question
+{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #5a6772;
+}
+.buttons
+{
+	margin-top: 0px;
+}
+#btn0, #btn1, #btn2, #btn3
+{
+	background-color: #778897; 
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+	color: #fff;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	margin: 10px 30px 10px 0px;
+	padding: 10px 15px;
+}
+#progress
+{
+	color: #2b2b2b;
+	font-size: 18px;
+}
+#score
+{
+	text-align: center;
+	color: #2b2b2b;
+	font-size: 30px;
+}
