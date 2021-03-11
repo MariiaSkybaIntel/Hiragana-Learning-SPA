@@ -39,9 +39,9 @@ After registering, the user can login and see their progress displayed on screen
 Checking learning progress can be done by completing any of the 5 quizes provided by the app. 
 The score is displayed on the screen after quiz completion.
 
-![https://github.com/cmulation/Hiragana-Learning-SPA/blob/master/Capture3.JPG](Capture3.JPG)
+<img src= "https://github.com/cmulation/Hiragana-Learning-SPA/blob/master/quiz.jpg" width="800" height="400"/>
 
 All resources used to help create this applicationg are referenced at the bottom of the page.
 
-![https://github.com/cmulation/Hiragana-Learning-SPA/blob/master/Capture4.JPG](Capture4.JPG)
+<img src= "https://github.com/cmulation/Hiragana-Learning-SPA/blob/master/resources.jpg" width="313" height="184"/>
 <br>
