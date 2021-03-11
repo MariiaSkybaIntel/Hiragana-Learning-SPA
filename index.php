@@ -27,7 +27,7 @@
 				});
 
                 //to display previously saved scores
-                $.post("loadresults.php", {details: name, verify: pswrd}, function(data)
+                $.post("load_results.php", {details: name, verify: pswrd}, function(data)
                 {
                     $("#showResults").show();
                     $("#showResults").html(data);
@@ -71,7 +71,7 @@
                 }
                 else
                 {                         
-                    $.post("addScore.php", {details: lgduser, type: chosenq, result: fscore}, function(data)
+                    $.post("add_score.php", {details: lgduser, type: chosenq, result: fscore}, function(data)
                     {
                         $("#showUser").html(data);
                     });
