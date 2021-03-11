@@ -163,7 +163,6 @@
 <button  id="back" class="btnq">Back to Practice</button>
 
 <script type="text/javascript">
-    //document.getElementById("progress").style.display = "none"; //hide save button
     document.getElementById("saveres").style.display = "none"; //hide save button
     document.getElementById("back").style.display = "none"; //hide backToPractice button
     document.getElementById("quizform").style.display = "none"; //hide quiz until the button is clicked
