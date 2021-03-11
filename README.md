@@ -3,27 +3,21 @@
 ### **Files for communicating with MariaDB:**
 
 - [ ] db_config.php    (set up a connection to a database)
-
 - [ ] login.php        (user login)
-
 - [ ] register.php     (user registration)
-
 - [ ] addScore.php     (to save score after completing a quiz)
-
 - [ ] loadresults.php  (to display user progress on screen)
 
+### **Front-end and multimedia files:**
+
+- [ ] idex.php         (front-end)
+- [ ] style1.css       (front-end styling)
+- [ ] GitHub           (folder with all multimedia files used in the app(pictures, sounds, animations, etc)
 
 ### **SQL**
 
 - [ ] hiragana.sql     (SQL file to create a table in a database)
 
-### **Front-end and multimedia files:**
-
-- [ ] GitHub           (folder with all multimedia files used in the app(pictures, sounds, animations, etc)
-
-- [ ] idex.php         (front-end)
-
-- [ ] style1.css       (front-end styling)
 
 ## **APPLICATION DESCRIPTION**
 This single-page application (SPA) was created using **Javascript**, **PHP**, **CSS** and **HTML**. It is using **jQuery** to make **Ajax calls**, which enables it to make asynchronous HTTP requests *without the need for a full page refresh*.
