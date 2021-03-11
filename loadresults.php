@@ -24,8 +24,8 @@
 				while ($row = mysqli_fetch_assoc($result2))
 				{
 					//if the password provided matches the password in the "users" table
-					//if($row['password']==$pass)
-					//{
+					if($row['password']==$pass)
+					{
 						$count=$count+1;
 						echo "Attempt ";
 						echo $count;
@@ -34,11 +34,11 @@
 						echo ", score ";		
 						echo $row['score'];
 						echo "%. ";
-					/*}
+					}
 					else
 					{
 						echo "You haven't provided a password";
-					}	*/				
+					}					
 				}
 			}
 			else //if user has no progress
