@@ -5,13 +5,13 @@
 - [ ] db_config.php    (set up a connection to a database)
 - [ ] login.php        (user login)
 - [ ] register.php     (user registration)
-- [ ] addScore.php     (to save score after completing a quiz)
-- [ ] loadresults.php  (to display user progress on screen)
+- [ ] add_score.php     (to save score after completing a quiz)
+- [ ] load_results.php  (to display user progress on screen)
 
 ### **Front-end and multimedia files:**
 
-- [ ] idex.php         (front-end)
-- [ ] style1.css       (front-end styling)
+- [ ] index.php         (front-end)
+- [ ] style.css       (front-end styling)
 - [ ] GitHub           (folder with all multimedia files used in the app(pictures, sounds, animations, etc)
 
 ### **SQL**
