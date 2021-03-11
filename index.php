@@ -5,7 +5,7 @@
 		<title>Learn Hiragana!</title>
 		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <!--include css-->		
-		<link rel="stylesheet" type="text/css" href = "style1.css"> 
+		<link rel="stylesheet" type="text/css" href = "style.css"> 
 
 		<script>
         var lgduser = ""; //to keep track of the logged in user
